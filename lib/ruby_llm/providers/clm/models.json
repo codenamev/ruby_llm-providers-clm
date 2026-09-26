@@ -1,0 +1,62 @@
+[
+ {
+  "id": "clm-latest",
+  "name": "clm-latest",
+  "provider": "clm",
+  "family": "clm",
+  "created_at": "2026-09-19 00:00:00 UTC",
+  "context_window": 2048,
+  "max_output_tokens": null,
+  "knowledge_cutoff": null,
+  "modalities": {
+   "input": [
+    "text"
+   ],
+   "output": [
+    "judgment",
+    "rerank"
+   ]
+  },
+  "capabilities": [
+   "judgment"
+  ],
+  "pricing": {},
+  "metadata": {
+   "description": "CLM-v0.1-8B: a frozen Qwen3-8B encoder with trained 20M-parameter projection heads, scoring each candidate against the state.",
+   "endpoints": [
+    "judgment",
+    "rerank"
+   ]
+  }
+ },
+ {
+  "id": "clm-raw",
+  "name": "clm-raw",
+  "provider": "clm",
+  "family": "clm",
+  "created_at": "2026-09-19 00:00:00 UTC",
+  "context_window": 2048,
+  "max_output_tokens": null,
+  "knowledge_cutoff": null,
+  "modalities": {
+   "input": [
+    "text"
+   ],
+   "output": [
+    "judgment",
+    "rerank"
+   ]
+  },
+  "capabilities": [
+   "judgment"
+  ],
+  "pricing": {},
+  "metadata": {
+   "description": "Ablation: cosine similarity in the Qwen3-8B encoder's own space, with no projection head.",
+   "endpoints": [
+    "judgment",
+    "rerank"
+   ]
+  }
+ }
+]
