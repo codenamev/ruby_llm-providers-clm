@@ -9,7 +9,7 @@ gemspec
 gem "ruby_llm", github: "crmne/ruby_llm", branch: "main"
 
 # ruby-clm is not on RubyGems yet.
-gem "ruby-clm", github: "codenamev/ruby-clm", branch: "claude/clm-ruby-port-nbdg4y"
+gem "ruby-clm", github: "codenamev/ruby-clm", branch: "main"
 
 gem "minitest", "~> 5.0"
 gem "rack", "~> 3.0" # the end-to-end test serves a real CLM::Server
